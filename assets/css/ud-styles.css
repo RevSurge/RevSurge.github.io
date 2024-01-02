@@ -141,6 +141,11 @@ p {
   color: #fff !important
 }
 
+.ud-main-btn-small {
+  padding: 10px 25px !important;
+  color: #fff !important
+}
+
 .ud-main-btn {
   display: inline-block;
   text-align: center;
@@ -258,6 +263,7 @@ p {
 
 .navbar-brand img {
   max-width: 160px;
+  min-width: 100px; 
 }
 
 .navbar-toggler {
@@ -517,7 +523,7 @@ p {
 /* ===== Hero CSS ===== */
 .ud-hero {
   background: var(--primary-color);
-  padding-top: 180px;
+  padding-top: 140px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -670,10 +676,14 @@ p {
   right: -40px;
 }
 
+.ud-hero-image-cust {
+  border-radius: 15px;
+}
+
 /* ===== Features CSS ===== */
 .ud-features {
-  padding-top: 120px;
-  padding-bottom: 90px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 @media (max-width: 767px) {
@@ -686,6 +696,7 @@ p {
 .ud-section-title {
   max-width: 620px;
   margin-bottom: 70px;
+  margin-top: 70px;
 }
 
 .ud-section-title span {
@@ -693,6 +704,19 @@ p {
   font-size: 18px;
   color: var(--primary-color);
   margin-bottom: 10px;
+}
+
+.ud-section-title-pricing {
+  margin-top: 0px !important;
+}
+
+.ud-section-title-cust span {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+  text-align: center;
+  width: 100%;
 }
 
 .ud-section-title h2 {
@@ -839,7 +863,7 @@ p {
 }
 
 .ud-about-content {
-  max-width: 500px;
+  max-width: 550px;
 }
 
 .ud-about-content .tag {
@@ -886,7 +910,7 @@ p {
 
 /* ===== Pricing CSS ===== */
 .ud-pricing {
-  padding-top: 120px;
+  padding-top: 80px;
   padding-bottom: 90px;
 }
 
@@ -895,6 +919,10 @@ p {
     padding-top: 80px;
     padding-bottom: 40px;
   }
+}
+
+.container-cta {
+  margin-top: 40px;
 }
 
 .ud-single-pricing {
@@ -1476,10 +1504,14 @@ p {
   border-color: var(--primary-color);
 }
 
+.ud-form-group-cust {
+  text-align: center
+}
+
 /* ===== Footer CSS ===== */
 .ud-footer {
   background: #000;
-  padding-top: 100px;
+  padding-top: 50px;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -1739,6 +1771,19 @@ p {
           align-items: center;
   margin-left: -10px;
   margin-right: -10px;
+}
+
+.li-cust {
+  color:#000;
+  list-style: none;
+}
+
+.li-cust-bad li:before {
+  content: 'x';
+}
+
+.li-cust-good li:before {
+  content: '✓';
 }
 
 .ud-socials-connect ul li {

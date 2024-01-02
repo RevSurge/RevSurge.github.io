@@ -15,11 +15,11 @@
 
     // === logo change
     if (ud_header.classList.contains("sticky")) {
-      // logo.src = "assets/images/logo/eventstride_logo_full_2.svg";
-      document.getElementById("nav-logo").style.color = "#3056d3";
+      logo.src = "assets/images/logo/rs_logo_white.svg";
+      // document.getElementById("nav-logo").style.color = "#3056d3";
     } else {
-      // logo.src = "assets/images/logo/eventstride_logo_full.svg";
-      document.getElementById("nav-logo").style.color = "white"; 
+      logo.src = "assets/images/logo/rs_logo_black.svg";
+      // document.getElementById("nav-logo").style.color = "white"; 
     }
 
     // show or hide the back-top-top button

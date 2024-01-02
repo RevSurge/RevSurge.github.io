@@ -1,20 +1,10 @@
-<!-- =========
-
-	Template Name: Play
-	Author: UIdeck
-	Author URI: https://uideck.com/
-	Support: https://uideck.com/support/
-	Version: 1.1
-
-========== -->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EventStride | 404</title>
+    <title>RevSurge | 404</title>
 
     <!--====== Favicon Icon ======-->
     <link
@@ -28,6 +18,7 @@
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="assets/css/lineicons.css" />
     <link rel="stylesheet" href="assets/css/ud-styles.css" />
+    <link href="https://fonts.cdnfonts.com/css/open-sauce-one" rel="stylesheet">
   </head>
   <body>
     <!-- ====== Header Start ====== -->
@@ -36,8 +27,8 @@
         <div class="row">
           <div class="col-lg-12">
             <nav class="navbar navbar-expand-lg">
-              <a class="navbar-brand" href="index.html">
-                <img src="assets/images/logo/logo.svg" alt="Logo" />
+              <a class="navbar-brand nav-cust" id="nav-logo" href="index.html">
+                <img src="assets/images/logo/rs_logo_black.svg" alt="Logo" />
               </a>
               <button class="navbar-toggler">
                 <span class="toggler-icon"> </span>
@@ -50,20 +41,19 @@
                   <li class="nav-item">
                     <a class="ud-menu-scroll" href="#home">Home</a>
                   </li>
-
                   <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#about">About</a>
+                    <a class="ud-menu-scroll" href="#features">Features</a>
                   </li>
                   <li class="nav-item">
                     <a class="ud-menu-scroll" href="#pricing">Pricing</a>
                   </li>
-                  <li class="nav-item">
+                  <!-- <li class="nav-item">
                     <a class="ud-menu-scroll" href="#team">Team</a>
-                  </li>
-                  <li class="nav-item">
+                  </li> -->
+                  <!-- <li class="nav-item">
                     <a class="ud-menu-scroll" href="#contact">Contact</a>
-                  </li>
-                  <li class="nav-item nav-item-has-children">
+                  </li> -->
+                  <!-- <li class="nav-item nav-item-has-children">
                     <a href="javascript:void(0)"> Pages </a>
                     <ul class="ud-submenu">
                       <li class="ud-submenu-item">
@@ -100,16 +90,16 @@
                         <a href="404.html" class="ud-submenu-link">404 Page</a>
                       </li>
                     </ul>
-                  </li>
+                  </li> -->
                 </ul>
               </div>
 
               <div class="navbar-btn d-none d-sm-inline-block">
-                <a href="login.html" class="ud-main-btn ud-login-btn">
+                <!-- <a href="login.html" class="ud-main-btn ud-login-btn">
                   Sign In
-                </a>
-                <a class="ud-main-btn ud-white-btn" href="javascript:void(0)">
-                  Sign Up
+                </a> -->
+                <a class="ud-main-btn ud-white-btn" href="signup.html">
+                  Get Started
                 </a>
               </div>
             </nav>
@@ -141,7 +131,7 @@
             <div class="ud-404-wrapper">
               <div class="ud-404-content">
                 <h2 class="ud-404-title">404 - We couldn't find that page.</h2>
-                <h5 class="ud-404-subtitle">
+                <!-- <h5 class="ud-404-subtitle">
                   Maybe you can find what you need here?
                 </h5>
                 <ul class="ud-404-links">
@@ -153,7 +143,7 @@
                   </li>
                   <li>
                     <a href="javascript:void(0)">Latest News</a>
-                  </li>
+                  </li> -->
                 </ul>
               </div>
             </div>
@@ -176,61 +166,61 @@
       </div>
       <div class="ud-footer-widgets">
         <div class="container">
-          <div class="row">
-            <div class="col-xl-3 col-lg-4 col-md-6">
-              <div class="ud-widget">
-                <a href="index.html" class="ud-footer-logo">
-                  <img src="assets/images/logo/logo.svg" alt="logo" />
-                </a>
-                <p class="ud-widget-desc">
-                  We create digital experiences for brands and companies by
-                  using technology.
-                </p>
-                <ul class="ud-widget-socials">
-                  <li>
-                    <a href="https://twitter.com/MusharofChy">
-                      <i class="lni lni-facebook-filled"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://twitter.com/MusharofChy">
-                      <i class="lni lni-twitter-filled"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://twitter.com/MusharofChy">
-                      <i class="lni lni-instagram-filled"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://twitter.com/MusharofChy">
-                      <i class="lni lni-linkedin-original"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+          <div class="column-footer">
+            <!-- <div class="col-xl-3 col-lg-4 col-md-6"></div> -->
               <div class="ud-widget">
                 <h5 class="ud-widget-title">About Us</h5>
                 <ul class="ud-widget-links">
                   <li>
-                    <a href="javascript:void(0)">Home</a>
+                    <a href="#home">Home</a>
                   </li>
                   <li>
-                    <a href="javascript:void(0)">Features</a>
+                    <a href="#features">Features</a>
                   </li>
                   <li>
-                    <a href="javascript:void(0)">About</a>
+                    <a href="#pricing">Pricing</a>
                   </li>
-                  <li>
-                    <a href="javascript:void(0)">Testimonial</a>
-                  </li>
+                  <!-- <li>
+                    <a href="#contact">Contact Us</a>
+                  </li> -->
                 </ul>
               </div>
             </div>
-            <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
+            <div class="column-footer">
+              <!-- <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6"></div> -->
+                <div class="ud-widget">
+                  <!-- <a href="index.html" class="ud-footer-logo">
+                    <img src="assets/images/logo/eventstride_logo.svg" alt="logo" />
+                    EventStride
+                  </a> -->
+                  <p class="ud-widget-desc">
+                    
+                  </p>
+                  <ul class="ud-widget-socials">
+                    <li>
+                      <a href="">
+                        <i class="lni lni-facebook-filled lni-cust"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <i class="lni lni-twitter-filled lni-cust"></i>
+                      </a>
+                    </li>
+                    <!-- <li>
+                      <a href="">
+                        <i class="lni lni-instagram-filled"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <i class="lni lni-linkedin-original"></i>
+                      </a>
+                    </li> -->
+                  </ul>
+                </div>
+            </div>
+            <!-- <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
               <div class="ud-widget">
                 <h5 class="ud-widget-title">Features</h5>
                 <ul class="ud-widget-links">
@@ -369,8 +359,8 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="ud-footer-bottom">
+      </div> -->
+      <!-- <div class="ud-footer-bottom">
         <div class="container">
           <div class="row">
             <div class="col-md-8">
@@ -388,13 +378,11 @@
             </div>
             <div class="col-md-4">
               <p class="ud-footer-bottom-right">
-                Designed and Developed by
-                <a href="https://uideck.com" rel="nofollow">UIdeck</a>
               </p>
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </footer>
     <!-- ====== Footer End ====== -->
 
