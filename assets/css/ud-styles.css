@@ -133,7 +133,7 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100%;
+  height: 100%; 
 }
 
 /*===== All Button Style =====*/
@@ -143,7 +143,13 @@ p {
 
 .ud-main-btn-small {
   padding: 10px 25px !important;
-  color: #fff !important
+  color: #fff !important;
+  margin-top: 10px;
+}
+
+.ud-main-btn-gs {
+  color: #000 !important;
+  background: #FFDE00 !important;
 }
 
 .ud-main-btn {
@@ -263,7 +269,7 @@ p {
 
 .navbar-brand img {
   max-width: 160px;
-  min-width: 100px; 
+  min-width: 85px; 
 }
 
 .navbar-toggler {
@@ -1779,7 +1785,7 @@ p {
 }
 
 .li-cust-bad li:before {
-  content: 'x';
+  content: '✘';
 }
 
 .li-cust-good li:before {
